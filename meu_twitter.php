@@ -31,7 +31,7 @@ class Meu_twitter {
       dashicons-twitter','10');
   }
   public function save_custom_fields(){
-    echo "ola mundo";
+    echo ""
   }
 
 }
