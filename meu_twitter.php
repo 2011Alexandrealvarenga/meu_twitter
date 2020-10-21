@@ -22,8 +22,11 @@ class Meu_twitter {
   }
 
   private function __construct() {
+   add_action('admin_menu',array($this,'set_custom_fields'));
    
-   
+  }
+  public function set_custom_fields(){
+
   }
 
 }
