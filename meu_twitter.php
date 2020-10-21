@@ -27,8 +27,11 @@ class Meu_twitter {
   }
   public function set_custom_fields(){
     add_menu_page('Meu twitter','Meu twitter','manage_options','meu_twitter',
-      'Meu_twitter::seve_custom_fields','
+      'Meu_twitter::save_custom_fields','
       dashicons-twitter','10');
+  }
+  public function save_custom_fields(){
+    echo "ola mundo";
   }
 
 }
